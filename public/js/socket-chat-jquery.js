@@ -7,6 +7,8 @@ var divUsuarios = $('#divUsuarios');
 var formEnviar = $('#formEnviar');
 var txtMensaje = $('#txtMensaje');
 var divChatbox = $('#divChatbox');
+var nameSala = $('.name-sala');
+nameSala.text(sala);
 
 //Funciones para renderizar usuarios
 function renderizarUsusarios(personas) { // [{}, {}]
